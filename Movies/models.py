@@ -37,3 +37,4 @@ class Booking(models.Model):
 
     def __str__(self):
         return f'Booking for {self.user.username} - Seat {self.seat_number} at {self.session}'
+
